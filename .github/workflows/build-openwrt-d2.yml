@@ -9,15 +9,15 @@
 name: OpenWrt-newifi-d2
 
 on:
-#  release:
-#    types: published
-#  push:
-#    branches:
-#      - master
-#    paths:
-#      - 'd2'
-   schedule:
-     - cron: 0 20 * * *
+  release:
+    types: published
+  push:
+    branches:
+      - master
+    paths:
+      - 'd2'
+#   schedule:
+#     - cron: 0 20 * * *
 #  watch:
 #    types: started
   
