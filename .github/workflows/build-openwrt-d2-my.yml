@@ -9,11 +9,11 @@
 name: OpenWrt-newifi-d2-my
 
 on:
-#  release:
-#    types: published
-#  push:
-#    branches:
-#      - master
+  release:
+    types: published
+  push:
+    branches:
+      - master
     paths:
       - 'my-d2'
 #   schedule:
